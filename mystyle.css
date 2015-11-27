@@ -30,9 +30,12 @@ footer {
 }
 
 .portfolio > div {
-    background-color: skyblue;
+    background-color: #FFFFF0;
     margin-bottom: 30px;
     padding: 10px 15px;
+    border: dashed 1px black;
+    border-radius: 15px;
+    box-shadow: 0 0 15px black;
 }
 
 .portfolio img {
@@ -41,6 +44,11 @@ footer {
 
 .main_works {
     margin-bottom: 20px;
+    background-color: #eee;
+}
+
+.main_works > h1, .main_works > p{
+    text-align: center;
 }
 
 .description {
