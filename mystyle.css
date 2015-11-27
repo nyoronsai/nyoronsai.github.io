@@ -1,3 +1,50 @@
-li {
-    color: red;
+.main {
+    background-color: #eee;
 }
+
+.main-left {
+    background-color: #eee;
+    border-right: dashed 1px #ddd;
+}
+
+.main-left > img {
+    margin: 10px auto;
+}
+
+.main-right {
+    background-color: #eee;
+}
+
+.main-right > .content {
+    width: 80%;
+    margin: 0 auto;
+    line-height: 1.6em;
+}
+
+footer {
+    background-color: #ddd;
+    border-top: solid 1px #bbb;
+    text-align: right;
+    overflow: hidden;
+    width: 100%;
+}
+
+.portfolio > div {
+    background-color: skyblue;
+    margin-bottom: 30px;
+    padding: 10px 15px;
+}
+
+.portfolio img {
+    float: left;
+}
+
+.main_works {
+    margin-bottom: 20px;
+}
+
+.description {
+    float: left;
+    margin-left: 20px;
+}
+
